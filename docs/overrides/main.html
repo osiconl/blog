@@ -1,0 +1,209 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+<style>
+  /* Hide ALL default Material language selectors and dropdowns */
+  .md-header__option[data-md-component="alternate"],
+  .md-select[data-md-component="alternate"],
+  .md-header .md-select,
+  .md-header__option .md-select {
+    display: none !important;
+  }
+
+  /* Remove the black line on top */
+  .md-header, .md-header--shadow {
+    box-shadow: none !important;
+    border-bottom: none !important;
+  }
+  .md-tabs {
+    border-top: none !important;
+    border-bottom: none !important;
+  }
+
+  /* Toggle container — fixed top right, matching osico.nl */
+  .site-toggles {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: fixed;
+    top: 0.65em;
+    right: 1em;
+    z-index: 1000;
+  }
+
+  /* Shared toggle button style — 32px rounded box like osico.nl */
+  .toggle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    transition: background 0.2s;
+  }
+  .toggle-btn:hover {
+    background: var(--md-default-fg-color--lightest, rgba(0,0,0,0.08));
+  }
+  [data-md-color-scheme="slate"] .toggle-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  /* Flag image — 15px circle like osico.nl */
+  .toggle-btn img {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  /* Theme icon colors — sun is dark, moon is light */
+  .toggle-btn svg {
+    width: 18px;
+    height: 18px;
+  }
+  /* Light mode: show moon in dark/black */
+  [data-md-color-scheme="default"] .toggle-btn svg {
+    color: #2d2d2d;
+  }
+  /* Dark mode: show sun in white */
+  [data-md-color-scheme="slate"] .toggle-btn svg {
+    color: #ffffff;
+  }
+
+  /* Custom header colors — light grey matching osico.nl footer */
+  :root {
+    --md-primary-fg-color: #f7f7fa;
+    --md-primary-fg-color--light: #ffffff;
+    --md-primary-fg-color--dark: #e0e0e4;
+    --md-accent-fg-color: #8b7d5e;
+    --md-accent-fg-color--transparent: rgba(139, 125, 94, 0.1);
+  }
+  /* Light mode: dark text on light header */
+  .md-header, .md-tabs {
+    color: #2d2d2d !important;
+  }
+  .md-header a, .md-tabs a, .md-header__topic {
+    color: #2d2d2d !important;
+  }
+  [data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #3a3a3e;
+    --md-primary-fg-color--light: #4a4a4e;
+    --md-primary-fg-color--dark: #2a2a2e;
+    --md-accent-fg-color: #b0a07a;
+    --md-accent-fg-color--transparent: rgba(176, 160, 122, 0.1);
+  }
+  [data-md-color-scheme="slate"] .md-header,
+  [data-md-color-scheme="slate"] .md-tabs {
+    color: #ffffff !important;
+  }
+  [data-md-color-scheme="slate"] .md-header a,
+  [data-md-color-scheme="slate"] .md-tabs a,
+  [data-md-color-scheme="slate"] .md-header__topic {
+    color: #ffffff !important;
+  }
+
+  /* Tabs background to match header */
+  .md-tabs {
+    background-color: var(--md-primary-fg-color) !important;
+  }
+
+  /* Hide the original Material dark/light palette toggle */
+  form[data-md-component="palette"] {
+    display: none !important;
+  }
+  .md-header__option {
+    display: none !important;
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+{{ super() }}
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // --- Language toggle ---
+  var isNL = window.location.pathname.startsWith("/nl/");
+  var currentPath = window.location.pathname;
+  var alternatePath;
+
+  if (isNL) {
+    alternatePath = currentPath.replace(/^\/nl\//, "/");
+    if (alternatePath === "") alternatePath = "/";
+  } else {
+    alternatePath = "/nl" + currentPath;
+  }
+
+  var flagSrc = isNL ? "/images/flag-gb.svg" : "/images/flag-nl.svg";
+  var langTitle = isNL ? "Switch to English" : "Naar Nederlands";
+
+  // --- Dark/light toggle ---
+  function getScheme() {
+    return document.body.getAttribute("data-md-color-scheme") || "default";
+  }
+
+  function setScheme(scheme) {
+    document.body.setAttribute("data-md-color-scheme", scheme);
+    // Sync with Material's internal palette inputs
+    var inputs = document.querySelectorAll("input[data-md-color-scheme]");
+    inputs.forEach(function(input) {
+      if (input.getAttribute("data-md-color-scheme") === scheme) {
+        input.click();
+      }
+    });
+    try { localStorage.setItem("data-md-color-scheme", scheme); } catch(e) {}
+    updateThemeIcon();
+  }
+
+  function toggleScheme() {
+    setScheme(getScheme() === "slate" ? "default" : "slate");
+  }
+
+  // Sun icon (show in dark mode → click to go light)
+  var sunIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>';
+  // Moon icon (show in light mode → click to go dark)
+  var moonIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+
+  function updateThemeIcon() {
+    var isDark = getScheme() === "slate";
+    themeBtn.innerHTML = isDark ? sunIcon : moonIcon;
+    themeBtn.title = isDark ? "Switch to light mode" : "Switch to dark mode";
+  }
+
+  // --- Build the toggle container ---
+  var container = document.createElement("div");
+  container.className = "site-toggles";
+
+  // Language button
+  var langBtn = document.createElement("a");
+  langBtn.href = alternatePath;
+  langBtn.className = "toggle-btn";
+  langBtn.title = langTitle;
+  langBtn.setAttribute("aria-label", langTitle);
+  langBtn.innerHTML = '<img src="' + flagSrc + '" alt="' + langTitle + '">';
+
+  // Theme button
+  var themeBtn = document.createElement("button");
+  themeBtn.className = "toggle-btn";
+  themeBtn.setAttribute("aria-label", "Toggle dark mode");
+  themeBtn.addEventListener("click", toggleScheme);
+  updateThemeIcon();
+
+  container.appendChild(langBtn);
+  container.appendChild(themeBtn);
+  document.body.appendChild(container);
+
+  // Watch for external scheme changes (e.g. system preference)
+  var observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(m) {
+      if (m.attributeName === "data-md-color-scheme") updateThemeIcon();
+    });
+  });
+  observer.observe(document.body, { attributes: true });
+});
+</script>
+{% endblock %}

@@ -1,0 +1,92 @@
+site_name: Nanne's Code & Thoughts
+site_url: https://nanne.infradock.net
+site_description: A blog about tech, programming, and philosophical musings
+site_author: Nanne Infradock
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    logo: material/code-braces
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      default_language: en
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: nl
+          name: Nederlands
+          build: true
+          nav_translations:
+            Home: Home
+            Blog: Blog
+            About: Over mij
+  - tags
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Blog:
+    - blog/index.md
+    - blog/welcome.md
+    - blog/python-context-managers.md
+    - blog/complexity-and-gardening.md
+  - About: about/index.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/nanne
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/nanne
