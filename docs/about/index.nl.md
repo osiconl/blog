@@ -9,4 +9,4 @@ Dit blog is een plek om technische kennis te delen, naast de filosofische vragen
 
 ## Contact
 
-Neem gerust contact op via [nanne@osico.nl](https://osico.nl).
+Neem gerust contact op met <a href="https://osico.nl/#contact" target="_blank" rel="noopener noreferrer">Nanne Osinga</a>

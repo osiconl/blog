@@ -8,4 +8,4 @@ This blog is a space to share technical knowledge alongside the philosophical qu
 
 ## Get in touch
 
-Feel free to reach out at [nanne@osico.nl](https://osico.nl).
+Feel free to reach out to <a href="https://osico.nl/#contact" target="_blank" rel="noopener noreferrer">Nanne Osinga</a>
