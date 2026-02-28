@@ -1,6 +1,6 @@
-# Software Is Gardening, Not Architecture
+# Creating Software Is Farming, Not Architecture
 
-*February 24, 2026*
+*January 12, 2026*
 
 We call it software *architecture*, but that metaphor has always felt wrong to me. Buildings are finished. Software never is.
 
@@ -12,7 +12,7 @@ But no codebase I've ever worked on has behaved like a building. They grow. They
 
 ## A better metaphor
 
-A garden is never finished. You plant things, and some thrive while others don't. Weeds appear. Seasons change. The soil needs attention. You prune, reshape, and sometimes pull things out entirely.
+A farmer is never finished. You plant things, and some thrive while others don't. Weeds appear. Seasons change. The soil needs attention. You prune, reshape, and sometimes pull things out entirely.
 
 This is what maintaining software actually feels like.
 
@@ -22,12 +22,12 @@ This is what maintaining software actually feels like.
 
 ## What this changes
 
-If software is a garden, then the role of the developer isn't to build and leave — it's to tend and adapt. It means maintenance isn't a lesser activity than creation. It means the most important skill isn't designing the perfect system upfront, but *noticing* when something needs attention.
+If creating software is like the farming business, then the role of the developer isn't to build and leave — it's to tend and adapt. It means maintenance isn't a lesser activity than creation. It means the most important skill isn't designing the perfect system upfront, but *noticing* when something needs attention.
 
 The best codebases I've seen weren't the most cleverly designed. They were the most lovingly maintained.
 
 ## A question to sit with
 
-If we stopped thinking of ourselves as architects and started thinking of ourselves as gardeners, how would that change the way we plan projects, estimate timelines, and value the people who keep things running?
+If we stopped thinking of ourselves as architects and coders and started thinking of ourselves as farmers, how would that change the way we plan projects, estimate timelines, and value the people who keep things running?
 
-Sometimes the most philosophical thing you can do is pull a weed.
+Sometimes the most valuable thing you can do is pull a weed.

@@ -1,10 +1,10 @@
 # Welcome
 
-Hi, I'm **Nanne** — a developer who thinks about code and the bigger questions in equal measure.
+Hi, I'm **Nanne** — a developer who writes and codes and thinks about the impact of AI.
 
 This blog is where I share what I'm learning, building, and pondering. You'll find posts about programming, infrastructure, web development, and the occasional philosophical detour into what it all means.
 
-Whether you're here for a Python tip or a reflection on the nature of complexity, I hope something resonates.
+Whether you're here for a code tip or a reflection on the nature of complexity, I hope something resonates.
 
 ---
 

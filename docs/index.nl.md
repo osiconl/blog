@@ -1,10 +1,10 @@
 # Welkom
 
-Hoi, ik ben **Nanne** — een developer die evenveel nadenkt over code als over de grote vragen des levens.
+Hoi, ik ben **Nanne** — een developer die schrijft en codeert en nadenkt over de impact van AI.
 
 Dit blog is de plek waar ik deel wat ik leer, bouw en overdenk. Je vindt hier posts over programmeren, infrastructuur, webdevelopment en af en toe een filosofische omweg over wat het allemaal betekent.
 
-Of je nu hier bent voor een Python-tip of een reflectie over de aard van complexiteit, ik hoop dat er iets bij zit dat resoneert.
+Of je nu hier bent voor een codeer-tip of een reflectie over de aard van complexiteit, ik hoop dat er iets bij zit dat resoneert.
 
 ---
 

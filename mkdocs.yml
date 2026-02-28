@@ -1,7 +1,7 @@
-site_name: Nanne's Code & Thoughts
-site_url: https://nanne.infradock.net
-site_description: A blog about tech, programming, and philosophical musings
-site_author: Nanne Infradock
+site_name: Nanne's Writing, Coding and AI
+site_url: https://blog.osico.nl
+site_description: A blog about technology and humanity by Nanne Osinga - OSICO
+site_author: Nanne Osinga
 
 theme:
   name: material
@@ -79,14 +79,13 @@ nav:
   - Home: index.md
   - Blog:
     - blog/index.md
-    - blog/welcome.md
-    - blog/python-context-managers.md
-    - blog/complexity-and-gardening.md
+    - blog/20260105_welcome.md
+    - blog/20260112_architecture-and-farming.md
   - About: about/index.md
 
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/nanne
+      link: https://github.com/osiconl/blog
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/nanne
+      link: https://linkedin.com/in/nanneosinga/

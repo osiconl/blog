@@ -1,7 +1,4 @@
-# Blog
+# Recent posts:
 
-Recent posts:
-
-- [Hello World — Why This Blog Exists](welcome.md) — *February 26, 2026*
-- [Python Context Managers — More Than Just File Handling](python-context-managers.md) — *February 25, 2026*
-- [Software Is Gardening, Not Architecture](complexity-and-gardening.md) — *February 24, 2026*
+- [Hello World — Why This Blog Exists](welcome.md) — *Januari 5, 2026*
+- [Software Is Farming, Not Architecture](architecture-and-farming.md) — *Januari 12, 2026*
