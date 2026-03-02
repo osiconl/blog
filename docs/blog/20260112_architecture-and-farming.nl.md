@@ -1,4 +1,4 @@
-# Software Maken is Boeren, Geen Architectuur
+# Software Maken is Landbouw, Geen Architectuur
 
 *12 januari 2026*
 
@@ -12,7 +12,7 @@ Maar geen enkele codebase waar ik ooit aan gewerkt heb, gedroeg zich als een geb
 
 ## Een betere metafoor
 
-Een boer is nooit klaar. Je plant dingen, en sommige gedijen terwijl andere dat niet doen. Onkruid verschijnt. Seizoenen wisselen. De grond heeft aandacht nodig. Je snoeit, hervormt, en soms trek je dingen helemaal uit de grond.
+Een landbouwer is nooit klaar. Je plant dingen, en sommige gedijen terwijl andere dat niet doen. Onkruid verschijnt. Seizoenen wisselen. De grond heeft aandacht nodig. Je snoeit, hervormt, en soms trek je dingen helemaal uit de grond.
 
 Zo voelt het onderhouden van software eigenlijk.
 
