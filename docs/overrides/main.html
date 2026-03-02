@@ -79,8 +79,20 @@
     --md-primary-fg-color: #f7f7fa;
     --md-primary-fg-color--light: #ffffff;
     --md-primary-fg-color--dark: #e0e0e4;
-    --md-accent-fg-color: #8b7d5e;
-    --md-accent-fg-color--transparent: rgba(139, 125, 94, 0.1);
+    --md-accent-fg-color: #4a3a1a;
+    --md-accent-fg-color--transparent: rgba(74, 58, 26, 0.1);
+    --md-typeset-a-color: #4a3a1a;
+  }
+  /* Light mode: ensure all links are readable */
+  .md-typeset a,
+  .md-nav__link,
+  .md-nav__item a {
+    color: #4a3a1a !important;
+  }
+  .md-typeset a:visited,
+  .md-nav__link:visited,
+  .md-nav__item a:visited {
+    color: #3d3015 !important;
   }
   /* Light mode: dark text on light header */
   .md-header, .md-tabs {
@@ -93,8 +105,13 @@
     --md-primary-fg-color: #3a3a3e;
     --md-primary-fg-color--light: #4a4a4e;
     --md-primary-fg-color--dark: #2a2a2e;
-    --md-accent-fg-color: #b0a07a;
-    --md-accent-fg-color--transparent: rgba(176, 160, 122, 0.1);
+    --md-accent-fg-color: #d4c49a;
+    --md-accent-fg-color--transparent: rgba(212, 196, 154, 0.1);
+    --md-typeset-a-color: #d4c49a;
+  }
+  /* Dark mode: visited links — brighter to maintain contrast */
+  [data-md-color-scheme="slate"] .md-typeset a:visited {
+    color: #c0ad80;
   }
   [data-md-color-scheme="slate"] .md-header,
   [data-md-color-scheme="slate"] .md-tabs {
