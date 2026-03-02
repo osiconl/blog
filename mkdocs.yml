@@ -81,6 +81,7 @@ nav:
     - blog/index.md
     - blog/20260105_welcome.md
     - blog/20260112_architecture-and-farming.md
+    - blog/20260202_build-your-first-neural-network.md
   - About: about/index.md
 
 extra:
