@@ -32,6 +32,8 @@ Elke pixel wordt een getal tussen 0 (wit) en 1 (zwart). Een afbeelding van 28×2
 
 ![Pixelraster gekoppeld aan neuroninvoer](images/pixel_inputs.png)
 
+De afbeelding hierboven is ter illustratie. Hier is het 18x18 en wordt het een lijst van 324 getallen
+
 ## De verbinding maken
 
 Een enkel neuron kan niet veel — net zoals een enkele zuiger nog geen motor is. Maar lagen van neuronen wel. Ons netwerk heeft drie delen:

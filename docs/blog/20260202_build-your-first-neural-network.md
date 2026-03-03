@@ -32,6 +32,8 @@ Every pixel becomes a number between 0 (white) and 1 (black). A 28×28 image bec
 
 ![Pixel grid mapped to neuron inputs](images/pixel_inputs.png)
 
+The image above is for illustrative purposes. Here it's 18x18 and becomes a list of 324 numbers.
+
 ## Connecting the dots
 
 A single neuron can't do much — just like a single piston isn't an engine. But layers of neurons can. Our network has three parts:
