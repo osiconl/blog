@@ -1,4 +1,5 @@
 # Recente posts:
 
-- [Hallo Wereld — Waarom Deze Blog Bestaat](20260105_welcome.md) — *5 januari 2026*
-- [Software Is Boeren, Geen Architectuur](20260112_complexity-and-farming.md) — *12 januari 2026*
+- [Software Is Boeren, Geen Architectuur](20260112_architecture-and-farming.md) — *12 januari 2026*
+
+- [Bouw Je Eerste Neurale Netwerk](20260202_build-your-first-neural-network.nl.md) - *2 februari 2026*
