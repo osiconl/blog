@@ -1,6 +1,6 @@
 # Bouw Je Eerste Neurale Netwerk
 
-*2 maart 2026*
+*2 februari 2026*
 
 ## Een speelgoed dat je alles leert
 
@@ -12,7 +12,7 @@ Hij is, praktisch gezien, nutteloos. Hij kan geen fabriek aandrijven of een loco
 
 MNIST is de Wilesco D6 van het AI-tijdperk.
 
-Het is een dataset van 70.000 handgeschreven cijfers — kleine afbeeldingen van 28×28 pixels van de getallen 0 tot en met 9. Het kan geen auto besturen of poëzie schrijven. Maar als je wilt begrijpen hoe machines leren, is MNIST waar je de brander aansteekt.
+Het is een dataset van 70.000 handgeschreven cijfers — kleine afbeeldingen van 28×28 pixels van de getallen 0 tot en met 9. Het kan geen auto besturen of poëzie schrijven. Maar als je wilt begrijpen hoe machines leren, is MNIST waar je het vuur ontsteekt.
 
 ## Van biologie naar code
 
@@ -24,7 +24,7 @@ Een kunstmatig neuron doet hetzelfde, maar dan met wiskunde. Het neemt een reeks
 
 ## De uitdaging: handgeschreven cijfers lezen
 
-Sommige cijfers zijn netjes, andere slordig — net als echt handschrift.
+Sommige cijfers zijn netjes, andere slordig — net een echt handschrift.
 
 ![MNIST cijfervoorbeelden](images/mnist_samples.png)
 
@@ -44,26 +44,30 @@ Een enkel neuron kan niet veel — net zoals een enkele zuiger nog geen motor is
 
 Wanneer we een afbeelding van een "8" invoeren, verwerkt het netwerk deze door alle lagen. Als alles goed gaat, vuurt het neuron met label "8" het sterkst. Druk wordt beweging.
 
-## Laten we de stoommachine draaien
+## Tijd om de stoommachine te laten draaien
 <div style="max-width: 350px; margin: 1em 0;">
   <iframe width="315" height="560" src="https://www.youtube.com/embed/p6tdFc0CNWg" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## Laten we het lerende neurale netwerk draaien
+## Tijd we het neurale netwerk te laten leren
 Om de code te bekijken heb je alleen een browser nodig, om de code uit te voeren heb je een Google-account nodig. We gebruiken Google Colab. Google Colab biedt een online geïntegreerde ontwikkelomgeving (IDE) voor Python die geen installatie vereist en volledig in de cloud draait. Het biedt gratis toegang tot rekenkracht, inclusief GPU's en TPU's, waardoor het populair is bij onderzoekers en studenten die werken aan deep learning en data science projecten.
 
-[Michael Nielsen MNIST](https://colab.research.google.com/drive/1GLwV2w9LsZp_3d1EwVugNGcSJXYerQ4k?usp=sharing)
+Bovendien kun je aan Google Colab, via geïntegreerde Gemini, specifiek om uitleg vragen waar je naar zit te kijken.
 
-![Colab neuraal netwerk en deep learning](images/colab-neural-network-and-deep-learning.png)
+[Google Colab Michael Nielsen MNIST](https://colab.research.google.com/drive/1GLwV2w9LsZp_3d1EwVugNGcSJXYerQ4k?usp=sharing)
+
+[Michael Nielsen MNIST](http://neuralnetworksanddeeplearning.com/)
+
+![Google Colab Colab neuraal netwerk en deep learning](images/colab-neural-network-and-deep-learning.png)
 
 Met een eenvoudig netwerk van 784 invoerneuronen, 30 verborgen neuronen en 10 uitvoerneuronen, getraind gedurende 30 rondes — bereik je ongeveer **95% nauwkeurigheid**. Niet slecht voor een paar dozijn regels code.
 
 
-Hier hetzelfde probleem vanuit een andere hoek
+Hier dezelfde uitdaging vanuit een andere hoek
 
-[Numpy Tutorial MNIST](https://colab.research.google.com/drive/1v5TdyysqPh_zZ0ZF6KYJV7TM9lxG6boF?usp=sharing)
+[Google Colab Numpy Tutorial MNIST](https://colab.research.google.com/drive/1v5TdyysqPh_zZ0ZF6KYJV7TM9lxG6boF?usp=sharing)
 
-
+[Numpy Tutorial MNIST](https://numpy.org/numpy-tutorials/tutorial-deep-learning-on-mnist/)
 
 ## Wat is er zojuist gebeurd?
 
