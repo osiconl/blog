@@ -54,9 +54,9 @@ Om de code te bekijken heb je alleen een browser nodig, om de code uit te voeren
 
 Bovendien kun je aan Google Colab, via geïntegreerde Gemini, specifiek om uitleg vragen waar je naar zit te kijken.
 
-[Google Colab Michael Nielsen MNIST](https://colab.research.google.com/drive/1GLwV2w9LsZp_3d1EwVugNGcSJXYerQ4k?usp=sharing)
-
 [Michael Nielsen MNIST](http://neuralnetworksanddeeplearning.com/)
+
+[Google Colab Michael Nielsen MNIST](https://colab.research.google.com/drive/1GLwV2w9LsZp_3d1EwVugNGcSJXYerQ4k?usp=sharing)
 
 ![Google Colab Colab neuraal netwerk en deep learning](images/colab-neural-network-and-deep-learning.png)
 
@@ -65,9 +65,9 @@ Met een eenvoudig netwerk van 784 invoerneuronen, 30 verborgen neuronen en 10 ui
 
 Hier dezelfde uitdaging vanuit een andere hoek
 
-[Google Colab Numpy Tutorial MNIST](https://colab.research.google.com/drive/1v5TdyysqPh_zZ0ZF6KYJV7TM9lxG6boF?usp=sharing)
-
 [Numpy Tutorial MNIST](https://numpy.org/numpy-tutorials/tutorial-deep-learning-on-mnist/)
+
+[Google Colab Numpy Tutorial MNIST](https://colab.research.google.com/drive/1v5TdyysqPh_zZ0ZF6KYJV7TM9lxG6boF?usp=sharing)
 
 ## Wat is er zojuist gebeurd?
 

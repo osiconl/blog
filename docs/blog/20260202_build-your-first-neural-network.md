@@ -54,9 +54,9 @@ To see the code you only need browser, to run the code you need a google account
 
 In addition, you can ask Google Colab, via integrated Gemini, specifically for an explanation of what you are looking at.
 
-[Google Colab Michael Nielsen MNIST](https://colab.research.google.com/drive/1GLwV2w9LsZp_3d1EwVugNGcSJXYerQ4k?usp=sharing)
-
 [Michael Nielsen MNIST](http://neuralnetworksanddeeplearning.com/)
+
+[Google Colab Michael Nielsen MNIST](https://colab.research.google.com/drive/1GLwV2w9LsZp_3d1EwVugNGcSJXYerQ4k?usp=sharing)
 
 ![Google Colab neural network and deep learning](images/colab-neural-network-and-deep-learning.png)
 
@@ -65,9 +65,9 @@ With a simple network of 784 input neurons, 30 hidden neurons, and 10 output neu
 
 Here the same problem from a different angle
 
-[Google Colab Numpy Tutorial MNIST](https://colab.research.google.com/drive/1v5TdyysqPh_zZ0ZF6KYJV7TM9lxG6boF?usp=sharing)
-
 [Numpy Tutorial MNIST](https://numpy.org/numpy-tutorials/tutorial-deep-learning-on-mnist/)
+
+[Google Colab Numpy Tutorial MNIST](https://colab.research.google.com/drive/1v5TdyysqPh_zZ0ZF6KYJV7TM9lxG6boF?usp=sharing)
 
 ## What just happened?
 
