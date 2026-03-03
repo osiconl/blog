@@ -77,4 +77,4 @@ Het netwerk heeft, volledig zelfstandig, geleerd welke pixelpatronen bij welke c
 
 Dat is het kernidee achter alle moderne AI. Al het andere zijn variaties op dit thema: meer lagen, meer data, slimmere trucs. Maar de basis? Gewogen invoer, opgeteld, met een beslissing aan het eind. Net als een neuron.
 
-De Wilesco D6 zal geen fabriek aandrijven. Maar als je dat vliegwiel eenmaal hebt zien draaien, begrijp je stoom. En als je eenmaal een netwerk op MNIST hebt getraind, begrijp je iets over hoe machines leren zien. Soms leert de kleinste machine de grootste les.
+De Wilesco D6 zal geen fabriek aandrijven. Maar als je dat vliegwiel eenmaal hebt zien draaien, begrijp je stoom. En als je eenmaal een netwerk op MNIST hebt getraind, begrijp je iets over hoe machines leren.

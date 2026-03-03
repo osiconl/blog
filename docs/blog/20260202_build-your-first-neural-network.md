@@ -77,4 +77,4 @@ The network learned, entirely on its own, which pixel patterns correspond to whi
 
 That's the core idea behind all of modern AI. Everything else is variations on this theme: more layers, more data, more clever tricks. But the foundation? Weighted inputs, summed up, with a decision at the end. Just like a neuron.
 
-The Wilesco D6 won't power a factory. But once you've watched that flywheel spin, you understand steam. And once you've trained a network on MNIST, you understand something about how machines learn to see. Sometimes the smallest engine teaches the biggest lesson.
+The Wilesco D6 won't power a factory. But once you've watched that flywheel spin, you understand steam. And once you've trained a network on MNIST, you understand something about how machines learn.
