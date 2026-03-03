@@ -51,7 +51,7 @@ Wanneer we een afbeelding van een "8" invoeren, verwerkt het netwerk deze door a
   <iframe width="315" height="560" src="https://www.youtube.com/embed/p6tdFc0CNWg" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## Tijd we het neurale netwerk te laten leren
+## Tijd om het neurale netwerk te laten leren
 Om de code te bekijken heb je alleen een browser nodig, om de code uit te voeren heb je een Google-account nodig. We gebruiken Google Colab. Google Colab biedt een online geïntegreerde ontwikkelomgeving (IDE) voor Python die geen installatie vereist en volledig in de cloud draait. Het biedt gratis toegang tot rekenkracht, inclusief GPU's en TPU's, waardoor het populair is bij onderzoekers en studenten die werken aan deep learning en data science projecten.
 
 Bovendien kun je aan Google Colab, via geïntegreerde Gemini, specifiek om uitleg vragen waar je naar zit te kijken.
