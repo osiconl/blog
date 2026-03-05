@@ -1,1 +1,0 @@
-# Books about IT & AI
