@@ -80,6 +80,12 @@ nav:
     - blog/20260105_welcome.md
     - blog/20260112_architecture-and-farming.md
     - blog/20260202_build-your-first-neural-network.md
+  - Books:
+    - IT:
+      - books/it/the_mathematical_theory_of_communication.md
+      - books/it/revolution_in_the_valley.md
+    - AI:
+      - books/ai/a-swim-in-a-pond-in-the-rain.md
   - About: about/index.md
 
 extra:

@@ -80,6 +80,47 @@
     color: #ffffff;
   }
 
+  /* Diataxis-style link underlines — subtle, more visible on hover */
+  .md-typeset a:not(.md-nav__link):not(.md-header__button):not(.md-logo):not(.md-footer__link):not(.toggle-btn):not(.headerlink) {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    border-bottom-color: rgba(74, 58, 26, 0.25);
+    transition: border-bottom-color 0.2s ease;
+  }
+  .md-typeset a:not(.md-nav__link):not(.md-header__button):not(.md-logo):not(.md-footer__link):not(.toggle-btn):not(.headerlink):hover {
+    border-bottom-color: rgba(74, 58, 26, 0.8);
+  }
+  /* Dark mode link underlines */
+  [data-md-color-scheme="slate"] .md-typeset a:not(.md-nav__link):not(.md-header__button):not(.md-logo):not(.md-footer__link):not(.toggle-btn):not(.headerlink) {
+    border-bottom-color: rgba(212, 196, 154, 0.25);
+  }
+  [data-md-color-scheme="slate"] .md-typeset a:not(.md-nav__link):not(.md-header__button):not(.md-logo):not(.md-footer__link):not(.toggle-btn):not(.headerlink):hover {
+    border-bottom-color: rgba(212, 196, 154, 0.8);
+  }
+
+  /* Navigation link underlines — same subtle hover effect */
+  .md-tabs__link {
+    border-bottom: 1px solid transparent !important;
+    transition: border-bottom-color 0.2s ease !important;
+  }
+  .md-tabs__link:hover {
+    border-bottom-color: rgba(45, 45, 45, 0.5) !important;
+  }
+  [data-md-color-scheme="slate"] .md-tabs__link:hover {
+    border-bottom-color: rgba(255, 255, 255, 0.5) !important;
+  }
+  /* Sidebar navigation links */
+  .md-nav__link {
+    border-bottom: 1px solid transparent !important;
+    transition: border-bottom-color 0.2s ease !important;
+  }
+  .md-nav__link:hover {
+    border-bottom-color: rgba(74, 58, 26, 0.4) !important;
+  }
+  [data-md-color-scheme="slate"] .md-nav__link:hover {
+    border-bottom-color: rgba(212, 196, 154, 0.4) !important;
+  }
+
   /* Custom header colors — light grey matching osico.nl footer */
   :root {
     --md-primary-fg-color: #f7f7fa;
