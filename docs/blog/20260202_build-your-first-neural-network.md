@@ -48,7 +48,7 @@ When we feed in an image of a "8", the network processes it through these layers
 
 ## Let's run the Steam Engine
 <div style="max-width: 350px; margin: 1em 0;">
-  <iframe width="315" height="560" src="https://www.youtube.com/embed/p6tdFc0CNWg" frameborder="0" allowfullscreen></iframe>
+  <iframe width="315" height="560" src="https://www.youtube.com/embed/yjY12TEOQJI" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Let's run the Learning Neural Network

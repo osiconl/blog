@@ -48,7 +48,7 @@ Wanneer we een afbeelding van een "8" invoeren, verwerkt het netwerk deze door a
 
 ## Tijd om de stoommachine te laten draaien
 <div style="max-width: 350px; margin: 1em 0;">
-  <iframe width="315" height="560" src="https://www.youtube.com/embed/p6tdFc0CNWg" frameborder="0" allowfullscreen></iframe>
+  <iframe width="315" height="560" src="https://www.youtube.com/embed/yjY12TEOQJI" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Tijd om het neurale netwerk te laten leren
