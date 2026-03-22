@@ -4,4 +4,4 @@
 
 - [Build Your First Neural Network](20260202_build-your-first-neural-network.md) - *Februari 2, 2026*
 
-- [Large Language Models and Language](20260421_llms_and_language.md) — *April 21, 2026*
+- [Large Language Models and Language](20260322_llms_and_language.md) — *March 22, 2026*
