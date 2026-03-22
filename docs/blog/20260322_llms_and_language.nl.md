@@ -39,9 +39,9 @@ Nogmaals, een naam met klinkers kan maar op één manier worden gelezen:
 
 - **MOXAMET** kan alleen worden gelezen als MOXAMET.
 
-De bovenstaande voorbeelden tonen de kracht van de onbekende Griekse uitvinder van geschreven klinkers. Ik denk dat elke technologische verbetering van taal de mensheid democratiseert.
+De bovenstaande voorbeelden tonen de kracht van geschreven klinkers.
 
-Natuurlijk geldt "resultaten uit het verleden bieden geen garantie voor de toekomst," maar ik geloof oprecht dat verbeteringen in taaltechnologie schaarse expertise breder beschikbaar en gemakkelijker toegankelijk maken. LLM's zijn zo'n verbetering in taaltechnologie. Laten we eens kijken naar andere verbeteringen in taaltechnologie door de geschiedenis heen.
+Natuurlijk geldt "resultaten uit het verleden bieden geen garantie voor de toekomst," maar ik geloof oprecht dat verbeteringen in taaltechnologie schaarse expertise breder beschikbaar en gemakkelijker toegankelijk maken en hiermee de mensheid democratiseert. LLM's zijn zo'n verbetering in taaltechnologie. Laten we eens kijken naar andere verbeteringen in taaltechnologie door de geschiedenis heen.
 
 ## Van Rollen naar Boeken
 
