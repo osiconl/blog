@@ -39,7 +39,7 @@ Once again, a name with vowels can only be read in one way:
 
 - **MOXAMET** can only be read as MOXAMET.
 
-The above examples show the power of the unknown Greek written vowel inventor. I argue that every technological enhancement of language democratizes humanity. There is a strong correlation between the Greek alphabet and Greek democracy.
+The above examples show the power of the unknown Greek written vowel inventor. I think that every technological enhancement of language democratizes humanity.
 
 Of course, "past performance is not indicative of future results," but I truly believe that language technology enhancements make scarce expertise more widely available and easily accessible. LLMs are such a language technology enhancement. Let's consider some other language technology enhancements throughout history.
 
