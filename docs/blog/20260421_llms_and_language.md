@@ -57,7 +57,9 @@ With Christianity, the book became sacred. *Bible* means *book of books*. Books,
 
 ## Reading in Silence
 
-The gentleman in the picture below is Church Father Ambrosius, surrounded by his books.<img src="images/church_father_ambrosius.png" alt="Church father ambrosius" style="zoom:100%;" />
+The gentleman in the picture below is Church Father Ambrosius, surrounded by his books.
+
+![Church father Ambrosius](images/church_father_ambrosius.png)
 
 Generally, Church Father Ambrose is considered the first silent reader. Ambrose lived in the fourth century AD and was a bishop in Milan. It took another eleven hundred years before silent reading became the prevalent way of reading.
 
@@ -73,11 +75,11 @@ Both books and printing, as "language enhancement tools," made scarce expertise 
 
 Below you see handwritten book pages.
 
-<img src="images/book_page_hand_written.png" alt="Book hand written" style="zoom:100%;" />
+![Book hand written](images/book_page_hand_written.png)
 
 And here you see an early printed book pages
 
-<img src="images/book_page_printed.png" alt="Book printed" style="zoom:100%;" />
+![Book printed](images/book_page_printed.png)
 
 ## Printing as a Solution Supercharged the Renaissance
 

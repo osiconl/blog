@@ -57,7 +57,9 @@ Met het christendom werd het boek heilig. *Bijbel* betekent *boek der boeken*. B
 
 ## Stil lezen
 
-De heer op de afbeelding hieronder is kerkvader Ambrosius, omringd door zijn boeken.<img src="images/church_father_ambrosius.png" alt="Kerkvader Ambrosius" style="zoom:100%;" />
+De heer op de afbeelding hieronder is kerkvader Ambrosius, omringd door zijn boeken.
+
+![Kerkvader Ambrosius](images/church_father_ambrosius.png)
 
 Over het algemeen wordt kerkvader Ambrosius beschouwd als de eerste stille lezer. Ambrosius leefde in de vierde eeuw na Christus en was bisschop van Milaan. Het duurde nog elfhonderd jaar voordat stil lezen de gangbare manier van lezen werd.
 
@@ -73,11 +75,11 @@ Zowel boeken als de drukpers maakten, als "verbeteringen in taaltechnologie," sc
 
 Hieronder zie je handgeschreven boekpagina's.
 
-<img src="images/book_page_hand_written.png" alt="Handgeschreven boek" style="zoom:100%;" />
+![Handgeschreven boek](images/book_page_hand_written.png)
 
 En hier zie je vroege gedrukte boekpagina's.
 
-<img src="images/book_page_printed.png" alt="Gedrukt boek" style="zoom:100%;" />
+![Gedrukt boek](images/book_page_printed.png)
 
 ## De drukpers als oplossing gaf de Renaissance een enorme impuls
 
