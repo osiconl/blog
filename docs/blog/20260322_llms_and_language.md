@@ -1,6 +1,6 @@
 # Large Language Models and Language
 
-Large Language Models — LLMs specifically, and neural networks in general — are considered a tipping point in human history. But why? This blog will shed light on that question.
+Large Language Models — LLMs specifically, and neural networks in general — you can consider them as tipping points in human history. But why? This blog sheds light on that question.
 
 The human species is notably distinguishable from other species by two characteristics: extensive communication with each other, and tool making. The tool which is both an enabler and extender of those two characteristics is, of course, language.
 

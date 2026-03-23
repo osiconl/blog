@@ -1,6 +1,6 @@
 # Large Language Models en Taal
 
-Large Language Models — LLM's in het bijzonder, en neurale netwerken in het algemeen — worden beschouwd als een kantelpunt in de menselijke geschiedenis. Maar waarom? Deze blog zal licht werpen op die vraag.
+Large Language Models — LLM's in het bijzonder, en neurale netwerken in het algemeen — kun je zien als kantelpunten in de menselijke geschiedenis. Maar waarom? Deze blog werpt licht op die vraag.
 
 De menselijke soort onderscheidt zich duidelijk van andere soorten door twee kenmerken: uitgebreide communicatie met elkaar, en het maken van gereedschap. Het gereedschap dat zowel een aanjager als een versterker van die twee kenmerken is, is uiteraard taal.
 
