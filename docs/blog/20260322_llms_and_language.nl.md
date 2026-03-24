@@ -17,7 +17,7 @@ In Griekenland, rond achthonderd voor Christus, introduceerde iemand een nieuwe 
 
 Laten we dit uitwerken met een paar voorbeelden. De lezer moet enigszins vertrouwd zijn met het Griekse alfabet. Vergelijk de volgende twee woorden:
 
-- **ΟΜΑΤΑ** en **ΠOΔEΣ**
+- **ΟΜMΑΤΑ** en **ΠOΔEΣ**
 
 Het tweede woord is moeilijker te lezen voor de gemiddelde lezer, aangezien de letters in het eerste woord meer vertrouwd zijn en in ons huidige alfabet voorkomen. We kunnen beide woorden lezen zonder te weten wat ze betekenen.
 
@@ -81,7 +81,7 @@ En hier zie je vroege gedrukte boekpagina's.
 
 ![Gedrukt boek](images/book_page_printed.png)
 
-## De drukpers als oplossing gaf de Renaissance een enorme impuls
+## Drukpers als Renaissance booster
 
 **Versterking van bestaande trends** — Ideeën die al circuleerden onder de geleerde elite konden nu sneller en breder verspreid worden. Een humanistische tekst vereiste niet langer maanden handmatig kopiëren; honderden identieke exemplaren konden snel worden geproduceerd.
 

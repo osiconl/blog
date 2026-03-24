@@ -17,7 +17,7 @@ In Greece, around eight hundred B.C., someone introduced a new invention in the 
 
 Let's elaborate on this with some examples. First, the reader has to be somewhat familiar with the Greek alphabet. Compare the following two words:
 
-- **ΟΜΑΤΑ** and **ΠOΔEΣ**
+- **ΟΜMΑΤΑ** and **ΠOΔEΣ**
 
 The second word is harder to read for the average reader, since the letters in the first word are more familiar and used in our current alphabet. We can read both words without knowing what they mean.
 
@@ -81,7 +81,7 @@ And here you see an early printed book pages
 
 ![Book printed](images/book_page_printed.png)
 
-## Printing as a Solution Supercharged the Renaissance
+## Printing Supercharged the Renaissance
 
 **Amplified existing trends** — Ideas that were already circulating among educated elites could now spread faster and wider. A humanist text no longer required months of hand-copying; hundreds of identical copies could be produced quickly.
 
